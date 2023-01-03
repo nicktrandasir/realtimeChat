@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
-import {Header} from "../header";
 import styled from "styled-components";
+import { Header } from './../header/index';
 
 export default function Main() {
     return (
