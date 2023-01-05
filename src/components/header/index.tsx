@@ -23,9 +23,12 @@ const Container = styled.div`
 `;
 
 const Link = styled(NavLink)`
+  text-transform: uppercase;
   font-size: 30px;
   color: white;
-text-decoration: none;
+  text-decoration: none;
+  font-weight: 700;
+
   &.active {
     color: red;
   }
